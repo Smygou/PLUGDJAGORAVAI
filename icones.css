@@ -33,7 +33,7 @@
 }
 
 
-#chat #chat-messages [data-cid^="3548312-"] .icon,
+#chat #chat-messages [data-cid^="23424232-"] .icon,
 #chat #chat-messages [data-cid^="14034606-"] .rcs-user-info,
 #chat #chat-messages [data-cid^="6115389-"] .icon,
 #chat #chat-messages [data-cid^="6115389-"] .rcs-user-info,
@@ -75,7 +75,7 @@
 }
 
 /* Custom colors */
-#chat #chat-messages [data-cid^="3548312-"] .from .un,
+#chat #chat-messages [data-cid^="3242323-"] .from .un,
 #chat #chat-messages [data-cid^="4538423-"] .from .un,
 #chat #chat-messages [data-cid^="3806819-"] .from .un,
 #chat #chat-messages [data-cid^="3798150-"] .from .un {
