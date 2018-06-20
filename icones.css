@@ -10,8 +10,8 @@
     border-radius: 0;
 }
 
-#chat #chat-messages [data-cid^="3935419-"] .badge-box i {
-    background-image: url(https://chilloutmusica.github.io/cm/src/badges/3935419.png);
+#chat #chat-messages [data-cid^="3548312-"] .badge-box i {
+    background-image: url(https://i.gifer.com/UfOs.gif);
     background-size: cover;
     top: 0;
     left: 0;
@@ -562,17 +562,6 @@
 
 #chat #chat-messages [data-cid^="3942190-"] .badge-box i {
     background-image: url(https://chilloutmusica.github.io/cm/src/badges/3942190.gif);
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 0;
-}
-
-#chat #chat-messages [data-cid^="3548312-"] .badge-box i {
-    background-image: url(https://chilloutmusica.github.io/cm/src/badges/22819670.gif);
     background-size: cover;
     top: 0;
     left: 0;
