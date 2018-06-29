@@ -3,7 +3,7 @@
 */
 
 
-@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/8d3ab9c9/icones.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/d357485f/icones.css");
 /*@import url("https://chilloutmusica.github.io/cm/src/rdjs.css");*/
 
 body {
@@ -38,19 +38,6 @@ body {
     background-position: center center;
 }
 
-/* Not working with new plug UI. They were a little cheesy, anyways.
-#woot i.icon {
-    background-image: url("https://nightbloo.github.io/plug/icons/woot.png");
-}
-
-#grab i.icon {
-    background-image: url("https://nightbloo.github.io/plug/icons/grab.png");
-}
-
-#meh i.icon {
-    background-image: url("https://nightbloo.github.io/plug/icons/meh.png");
-}
-*/
 
 #playlist-panel {
     opacity: .85;
