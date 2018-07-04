@@ -1,0 +1,405 @@
+/* 
+PDU Theme v1.0
+Last Update: 01/06/2018
+Created by: Undeath Mumvock
+*/
+#chat [data-cid^="31603617-"] .from {
+	background: linear-gradient(to right, rgba(172, 188, 255,.12), transparent);
+	padding: 4px;
+	border-radius: 15px;
+}
+.cm.message.deletable.id-3548312::before,
+.cm.message.id-3548312::before {
+	background-image: url(https://i.imgur.com/JvrhF9R.png);	/* Smygou BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -50px;
+	background-position-x: right;
+}
+#chat [data-cid^="21918292-"] .bdg {
+    background-image: url('https://i.imgur.com/QNNkaFy.gif'); /* Smygou 00 v1 */
+}
+#chat [data-cid^="31603617-"] .bdg {
+    background-image: url('https://chilloutmusica.github.io/cm/src/badges/20793866.gif'); /* Lipe 00 v1 */
+}
+#chat [data-cid^="29579816-"] .bdg {
+    background-image: url('https://chilloutmusica.github.io/cm/src/badges/4150521.gif'); /* Brend  00 v1 */
+}
+#app {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+#room-settings-menu .title {
+    font-size: 20px;
+    text-align: center;
+}
+#room-settings-menu {
+    background: rgba(0,0,0,.5);
+}
+#app-menu, #app-menu.open, #app-menu.open .list, #waitlist .list .user, #user-view .jspContainer, .user-content.profile .points .subscribe-button, #playlist-edit-button.button, #playlist-shuffle-button.button, #playlist-delete-button.button, #playlist-activate-button, #rs-skip-button, #history-button, #history-button.selected {
+    background: transparent !important;
+}
+#app-menu.open, #user-view, #dashboard, #room-settings, .app-header, #room .app-right, #footer, #playlist-panel, #history-panel, #chat-input {
+    background-image: url("https://i.imgur.com/gZshHgh.png") !important;
+    background-size: cover !important;
+}
+#app-menu, #app-menu .list .rcsunload:hover, #app-menu .list .logout:hover, #app-menu .list .logout, #app-menu .list .rcsunload, #app-menu .list .rcsunload:hover {
+	border: none !important;
+}
+.media-list .row.now-playing {
+	border: none !important;
+}
+#history-button, #rs-skip-button {
+	box-shadow: none !important;	
+}
+#search, #playlist-menu {
+    background: black !important;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+}
+#app-menu .list .item {
+	box-shadow: none !important;	
+}
+#footer {
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+    box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+#footer-user .info {
+	display: block;
+	width: 85%;
+	top: 0;
+	background: transparent !important;
+}
+#footer-user .info .name,
+#footer-user .info .meta {
+	left: 0px;
+}
+#footer-user .info .points .pp {
+	top: 0;
+}
+#footer-user .info .meta .bar {
+	width: 200px !important;
+}
+#footer-user .buttons .button {display: none;}
+#footer-user .buttons .button.settings {
+	display: block;
+	float: right;
+	width: 15%;
+}
+#footer-user .info {
+  left: 10px !important;
+}
+#footer #footer-user .info {
+    z-index: 0!important;
+}
+#woot,
+#grab,
+#meh {
+    background-color: rgba(0, 0, 0, 0.20) !important;
+}
+#vote .crowd-response.disabled .bottom {
+    background: rgba(0, 0, 0, 0.28) !important;
+}
+
+#woot .bottom,
+#grab .bottom,
+#meh .bottom {
+    background-color: transparent !important;
+}
+#vote >#woot.crowd-response,
+#vote >#woot.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#woot.crowd-response.selected .bottom,
+#vote >#woot.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#woot.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(37, 185, 97) !important;
+}
+#vote >#grab.crowd-response .bottom,
+#vote >#grab.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#grab.crowd-response.selected .bottom,
+#vote >#grab.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#grab.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(170, 116, 255) !important;
+}
+#vote >#meh.crowd-response,
+#vote >#meh.crowd-response .bottom {
+    -webkit-box-shadow:     inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -3px 0 0 rgb(196, 46, 59) !important;
+}
+#vote >#meh.crowd-response.selected .bottom,
+#vote >#meh.crowd-response:hover .bottom {
+    -webkit-box-shadow:     inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -24px 0 0 rgb(196, 46, 59) !important;
+}
+#vote >#meh.crowd-response.selected {
+    -webkit-box-shadow:     inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    -moz-box-shadow:        inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    -o-box-shadow:          inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+    box-shadow:             inset 0 -61px 0 0 rgb(196, 46, 59) !important;
+}
+#chat .un,
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom {
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+}
+#woot, #meh {
+    border-radius: 0px;
+}
+#woot .bottom {
+    border-radius: 0px;
+}
+#meh .bottom {
+    border-radius: 0px;
+}
+#dj-button {
+    width: 230px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+#dj-button span {
+    width: 223px !important;
+    margin-left: 5px;
+}
+#dj-button .left{
+    height: 61px;
+    border-radius: 0px;
+    width: 230px;
+    transition: 0.3s;
+	background: rgba(40,44,53,1) !important;
+}
+#dj-button .left .icon{
+    left: 100px;
+}
+#dj-button:not(.is-locked):hover .left {
+    top: -53px;
+}
+#dj-button.is-locked {
+    cursor: no-drop;
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #484848
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #c42e3b
+}
+#dj-button .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #25b961
+}
+.social-menu .subscribe, .header-panel-button {
+    background: transparent;
+	border: 0px !important;
+}
+.header-panel-button.selected {
+    background: rgba(0,0,0, 0.4);
+}
+#chat .cm:nth-child(2n+1) {
+    background-color: rgba(0,0,0,.3);
+}
+#chat-input.focused {
+    -webkit-box-shadow: 0 0 0 1px #dfa817 !important;
+            box-shadow: 0 0 0 1px #dfa817 !important;
+} 
+.room-background {
+	background: url(https://i.imgur.com/iYS19uI.jpg) no-repeat !important;
+}
+.app-header {
+    -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+    box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+}
+#chat-messages {
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: .2px;
+}
+.icon {
+    background-image: url("https://i.imgur.com/2wZVTn4.jpg");
+}
+#room-name, #room-host {
+    left: 65px;
+}
+.top .icon-meh-disabled, .title .icon-meh-disabled {
+    background-position: -95px -702px;
+}
+.top .icon-woot-disabled, .title .icon-woot-disabled {
+    background-position: -130px -705px;
+}
+.icon-logout-grey {
+    background-position: -175px -525px !important;
+}
+#room .background img {
+    background-image: url("https://i.imgur.com/LRtlYS2.png") !important; 
+    object-position: -99999px 99999px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+#room-settings .general-settings .description .value {
+    overflow-y: hidden !important;
+}
+#room-bar .icon-room {
+    top: 0px;
+    width: 70px;
+    height: 50px;
+    background: url("https://i.imgur.com/9JKGZ45.png");
+}
+#footer-user .info .bar .progress, .experience .xp .bar .progress {
+	background: #dfa817;
+}
+#rcs-progress-container .bar {
+	background-color: #dfa817 !important;
+}
+#rcs-progress-container {
+	height: 2px !important;	
+}
+#header-panel-bar.right-meta {
+    border-bottom: 2px solid #dfa817;
+    box-sizing: border-box;
+}
+#playlist-button {
+    background: #dfa817;
+    background: -moz-linear-gradient(top,#dfa817 0,#d09e18 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#dfa817),color-stop(100%,#d09e18));
+    background: -webkit-linear-gradient(top,#dfa817 0,#d09e18 100%);
+    background: -o-linear-gradient(top,#dfa817 0,#d09e18 100%);
+    background: -ms-linear-gradient(top,#dfa817 0,#d09e18 100%);
+    background: linear-gradient(to bottom,#dfa817 0,#d09e18 100%);
+}
+#playlist-activate-button span, #playlist-menu .menu .row .count, .user-content.profile .meta .link .url a, .user-content.profile .meta .link .url a:visited, #user-settings .container .cap .value {
+    color: #dfa817;
+}
+#room-settings-menu .title, #chat-messages .timestamp {
+	color: #eee;
+}
+#playlist-menu .button {
+    background: black;
+    color: white;
+}
+#playlist-menu .menu .row.selected, #playlist-menu .button:hover, .media-list .row.selected, #user-menu .item.selected, #app-menu .list .item:hover, #room-settings-menu .item.selected {
+	background: rgba(223, 168, 23, 0.4) !important;
+	border-radius: 0px;
+}
+.media-list .meta {
+    border-bottom: 0px;
+}
+.playlist-media .actions,
+.media-list .selected .actions,
+#playlist-activate-button,
+#playlist-edit-button,
+#playlist-shuffle-button,
+#playlist-delete-button {
+    background: rgba(0,0,0, 0.4) !important;
+    border-radius: 0px;
+}
+.media-list .actions {
+    margin-right: 50px !important;
+}
+#media-panel .header {
+	border-bottom: 0px;
+}
+.media-list.history .row:hover .actions {
+    margin-right: 200px !important;
+    background: rgba(0,0,0, 0.4) !important;
+}
+.experience .xp .next-level, #user-settings .container .item span, #user-settings .container .cap .title, #app-menu .list .rcsunload,  #app-menu .list .logout span, #footer-user.showing .back, #playlist-menu .title, .user-content.profile .points .label, .user-content.profile .meta .joined, .user-content.profile .meta .link .label, #user-settings .container label, #footer-user .info .meta .label {
+    color: #fff;
+}
+.user-content .header span {
+    color: #ccc;
+}
+#footer-user.showing .back, .dialog.destructive .button.submit, .dialog-frame .button.submit.destructive, #room-settings .general-settings .option.enabled > button.on, #chat .delete-button:hover, #app-menu .list .rcsunload, #app-menu .list .logout {
+    background: -webkit-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+    background: -o-linear-gradient(bottom, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+    background: linear-gradient(to top, rgb(62, 5, 7), rgb(175, 60, 16) 5%, rgb(196, 46, 59)) !important;
+}
+#user-menu {
+    background: -webkit-linear-gradient(left, rgba(148, 103, 33, .3), rgba(0,0,0,.5));
+    background: -o-linear-gradient(left, rgba(148, 103, 33, .3), rgba(0,0,0,.5));
+    background: linear-gradient(to right, rgba(148, 103, 33, .3), rgba(0,0,0,.5));
+}
+#user-menu .avatar {
+    box-shadow: inset 0 0 30px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.5);
+    background: url("https://i.imgur.com/2GEs3dM.png");
+}
+#user-menu .icon-user-grey {
+	background-position: 0 -420px;	
+}
+#user-menu .icon-inventory-grey {
+	background-position: -140px -420px;	
+}
+#user-menu .icon-store-grey {
+	background-position: -105px -490px;	
+}
+#user-menu .icon-users-grey {
+	background-position: -70px -420px;
+}
+#user-menu .icon-history-grey {
+	background-position: -210px -420px;
+}
+#user-menu .icon-community-grey {
+	background-position: -140px -210px;
+}
+#user-menu .icon-settings-grey {
+	background-position: -210px -245px;	
+}
+.tab-menu button.selected, #room-settings .general-settings .option button.off, .media-list .row.now-playing {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(208, 158, 24, 0.75)), color-stop(5%, rgba(223, 168, 23, 0.75)), to(rgba(255, 190, 5, 0.75))) !important;
+    background: -webkit-linear-gradient(bottom, rgba(208, 158, 24, 0.75), rgba(223, 168, 23, 0.75) 5%, rgba(255, 190, 5, 0.75)) !important;
+    background: -o-linear-gradient(bottom, rgba(208, 158, 24, 0.75), rgba(223, 168, 23, 0.75) 5%, rgba(255, 190, 5, 0.75)) !important;
+    background: linear-gradient(to top, rgba(208, 158, 24, 0.75), rgba(223, 168, 23, 0.75) 5%, rgba(255, 190, 5, 0.75)) !important;
+}
+.tab-menu button, .tab-menu button:hover, #room-settings .general-settings .option button, .dropdown, .dropdown dd .row, .dropdown dd .row:hover {
+    background: rgba(0,0,0, 0.23);
