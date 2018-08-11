@@ -1,0 +1,32 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/ee7436e7/ChatAU.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/9819eb79/DJ.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/e0d6833e/DashPainel.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/ec16d405/Menus.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/79ee2042/Playlist.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/e2e7cb36/Dialog.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/2e432b06/Rollover.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/6b70d7a7/Icone.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/d224235f/Badges.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/219eb51e/vulpes.css");
+#footer #footer-user .info {
+    z-index: 0!important;
+}
+
+#footer-user .buttons {
+    z-index: -2!important
+}
+
+#footer-user {
+    z-index: -1!important
+}
+
+.thumb.medium .avi {
+    left: -24px!important;
+}
+
+.thumb .background {
+    background: transparent!important
+}
