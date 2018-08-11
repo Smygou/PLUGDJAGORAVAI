@@ -1,0 +1,160 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+.rs-dialog #dialog-confirm .dialog-body,
+#dialog-alert,
+#dialog-confirm,
+.dialog-frame {
+    background: rgba(37, 58, 109, 0.6)!important;
+    border-radius: 20px
+}
+
+.dialog {
+    background: rgba(37, 58, 109, 0.6)!Important;
+    border-radius: 20px
+}
+
+.dialog-body,
+#dialog-delete .dialog-body,
+#dialog-import-tt .dialog-body,
+#dialog-playlist-create .dialog-body,
+#dialog-playlist-rename .dialog-body,
+#dialog-media-update .dialog-body,
+.dialog.choice .dialog-body,
+#dialog-waitlist-ban-user .dialog-body,
+#dialog-ban-user .dialog-body,
+#dialog-mute-user .dialog-body,
+#dialog-user-role .dialog-body,
+.rs-dialog,
+.rs-dialog .dialog-body,
+#dialog-alert .dialog-body,
+#dialog-confirm .dialog-body {
+    background: rgba(37, 58, 109, 0.3)!important;
+}
+
+.dialog-frame .button {
+    font-weight: bold;
+    border-radius: 20px;
+    background: #0A1328!important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D68A8;
+    width: 40%!important;
+    ;
+    margin-left: 5%!important;
+    height: 94%!important;
+    ;
+    color: white!important;
+}
+
+.dialog-frame .button:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+.dialog-input-background {
+    background: #0B152D
+}
+
+#dialog-user-role .role-menu .menu li,
+#dialog-user-role .role-menu {
+    background-color: #0B152D!important;
+}
+
+#dialog-waitlist-ban-user .duration .toggle,
+#dialog-ban-user .duration .toggle,
+#dialog-mute-user .duration .toggle {
+    background: #0A1328!important;
+    border-radius: 20px;
+}
+
+#dialog-ban-user .duration .toggle.hour:hover,
+#dialog-ban-user .duration .toggle.day:hover,
+#dialog-ban-user .duration .toggle.forever:hover,
+#dialog-mute-user .duration .toggle.short:hover,
+#dialog-mute-user .duration .toggle.medium:hover,
+#dialog-mute-user .duration .toggle.long:hover,
+#dialog-ban-user .duration,
+#dialog-mute-user .duration,
+#dialog-waitlist-ban-user .duration {
+    border-bottom: 0px;
+}
+
+#dialog-media-update .swap {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#dialog-media-update .swap:hover {
+    background: rgba(37, 58, 109, 1)!important;
+}
+
+.dialog.choice li .radio {
+    background: #0A1328!important;
+}
+
+.dialog.choice li:hover {
+    background: rgba(255, 255, 255, 0.1)!important;
+    border-radius: 10px;
+}
+
+.dialog.choice li.selected {
+    background: rgba(255, 255, 255, 0.2)!important;
+    border-radius: 10px;
+}
+
+#dialog-waitlist-ban-user .username,
+#dialog-ban-user .username,
+#dialog-mute-user .username {
+    color: #FF1017;
+}
+
+.dialog .dialog-body .divider,
+.dialog.choice .divider {
+    opacity: 0;
+}
+
+.dialog-input-background {
+    background: #0A1328
+}
+
+.rs-dialog .dialog-frame .button.rsreset {
+    border-radius: 0px 0px 0px 20px;
+}
+
+.rs-dialog .dialog-frame .button.submit {
+    border-radius: 0px 0px 20px 0px;
+}
+
+.rs-dialog .dialog-frame .button:hover {
+    background: linear-gradient(to bottom right, #314673, #263344)!important;
+}
+
+.rs-dialog {
+    border-radius: 20px!important
+}
+
+.rs-dialog #dialog-confirm .dialog-body,
+#dialog-alert,
+#dialog-confirm,
+.dialog-frame {
+    border-radius: 0px;
+    background: transparent !important;
+}
+
+.rs-dialog .dialog-frame .button {
+    font-weight: bold!important;
+    border-radius: 0px;
+    background: #0A1328!important;
+    border-style: solid!important;
+    border-width: 0px!important;
+    border-color: #4D68A8!important;
+    margin-left: 0%!important;
+    padding: 0px!important;
+    height: 100%;
+    color: white!important;
+}
+
+#dialog-preview .dialog-frame .button.submit {
+    margin-left: 130px!important
+}
+
