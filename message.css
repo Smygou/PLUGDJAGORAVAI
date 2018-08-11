@@ -1,6 +1,6 @@
 .cm.message.deletable.id-3548312::before,
 .cm.message.id-3548312::before {
-	background-image: url(https://i.imgur.com/qRZuMQW.png);	/* Smygou */
+	background-image: url(https://i.imgur.com/cjWFlWq.jpg);	/* Smygou */
 	background-repeat: no-repeat;
 	content: "";
 	position: absolute;
@@ -12,4 +12,15 @@
 	z-index: -1;
 	background-position-y: -10px;
 	background-position-x: right;
+}
+
+#user-rollover.id-3548312 .badge-box i { 
+background-image: url(https://i.imgur.com/QNNkaFy.gif) !important;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0;
 }
