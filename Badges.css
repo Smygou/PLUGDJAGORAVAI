@@ -1,0 +1,93 @@
+/* Created by Smygou | Copyright (c) 2018. All Rights reserved.
+*/
+
+/* Smygou */
+
+#chat [data-cid^='3548312-'] .badge-box .bdg {
+     background-size: cover !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-image: url(https://i.imgur.com/gbwyY41.png)!important;
+ }
+ 
+ #user-rollover.id-3548312 .badge-box .bdg {
+     background-image: url(https://i.imgur.com/gbwyY41.png) !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-size: cover !important;
+     border-radius: 6px;
+ }
+ 
+ #chat [data-cid^="3548312-"] .bdg:before {
+     content: url(https://i.imgur.com/QNNkaFy.gif) !important;
+     position: absolute;
+     transition: ease-in-out 0.3s;
+     opacity: 0;
+ }
+ 
+ #chat [data-cid^="3548312-"]:hover .bdg:before {
+     opacity: 1;
+ }
+ 
+ 
+ /* Fellipe */
+
+#chat [data-cid^='3964410-'] .badge-box .bdg {
+     background-size: cover !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-image: url(https://i.imgur.com/ZxxMqiQ.png)!important;
+ }
+ 
+ #user-rollover.id-3964410 .badge-box .bdg {
+     background-image: url(https://i.imgur.com/ZxxMqiQ.png) !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-size: cover !important;
+     border-radius: 6px;
+ }
+ 
+ #chat [data-cid^="3964410-"] .bdg:before {
+     content: url(https://chilloutmusica.github.io/cm/src/badges/20793866.gif) !important;
+     position: absolute;
+     transition: ease-in-out 0.3s;
+     opacity: 0;
+ }
+ 
+ #chat [data-cid^="3964410-"]:hover .bdg:before {
+     opacity: 1;
+ }
+ 
+ /* Brenda */
+
+#chat [data-cid^='30410098-'] .badge-box .bdg {
+     background-size: cover !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-image: url(https://i.imgur.com/wwygJNF.png)!important;
+ }
+ 
+ #user-rollover.id-30410098 .badge-box .bdg {
+     background-image: url(https://i.imgur.com/wwygJNF.png) !important;
+     height: 30px;
+     width: 30px;
+     background-position: 0px;
+     background-size: cover !important;
+     border-radius: 6px;
+ }
+ 
+ #chat [data-cid^="30410098-"] .bdg:before {
+     content: url(https://chilloutmusica.github.io/cm/src/badges/4150521.gif) !important;
+     position: absolute;
+     transition: ease-in-out 0.3s;
+     opacity: 0;
+ }
+ 
+ #chat [data-cid^="30410098-"]:hover .bdg:before {
+     opacity: 1;
+ }
