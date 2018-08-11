@@ -1,0 +1,207 @@
+/*Smygou*/
+
+#chat [data-cid^='3548312-'] .un:before {
+    content: url(https://i.imgur.com/bCqxRM2.png);
+    padding: 0 5px 0 0px!important;
+}
+
+#user-rollover.id-3548312 .level:after {
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    content: "Astronauta";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+
+#user-rollover.id-3548312 .info .role i {
+    position: absolute;
+    margin: -17px 0 0 45px;
+}
+
+#user-rollover.is-plot.id-3548312 .info .role {
+    position: absolute;
+    margin: -97px 0px 0px -132px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+}
+
+#user-rollover.is-plot.id-3548312 .info .role span {
+    position: absolute;
+    margin: -18px 0px 0px 65px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    font-size: 12px;
+    color: #E67E22!important;
+}
+
+#user-rollover.id-3548312 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-3548312 .meta .showID,
+#user-rollover.id-3548312 .meta .joined,
+#user-rollover.id-3548312 .meta.subscriber .status {
+    margin: 19px 0 0 0!important;
+}
+
+#user-rollover.role-cohost.id-3548312 .role i {
+    background-image: url(https://nb3-music.github.io/icons/rdj.png)!important;
+}
+
+#user-rollover.id-3548312 .level:before {
+    position: absolute;
+    background-image: url(http://theme.foxdenedm.com/image_files/CoHostImg_ByFoxifly.png);
+    background-repeat: no-repeat;
+    content: "Host";
+    display: inline-block;
+    color: #78E3FD!important;
+    margin: 0px 0px 0 170px!important;
+    padding: 0 0 0 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+ /*Fellipe*/
+
+#chat [data-cid^='3964410-'] .un:before {
+    content: url(https://i.imgur.com/bCqxRM2.png);
+    padding: 0 5px 0 0px!important;
+}
+
+#user-rollover.id-3964410 .level:after {
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    content: "Astronauta";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+
+#user-rollover.id-3964410 .info .role i {
+    position: absolute;
+    margin: -17px 0 0 45px;
+}
+
+#user-rollover.is-plot.id-3964410 .info .role {
+    position: absolute;
+    margin: -97px 0px 0px -132px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+}
+
+#user-rollover.is-plot.id-3964410 .info .role span {
+    position: absolute;
+    margin: -18px 0px 0px 65px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    font-size: 12px;
+    color: #E67E22!important;
+}
+
+#user-rollover.id-3964410 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-3964410 .meta .showID,
+#user-rollover.id-3964410 .meta .joined,
+#user-rollover.id-3964410 .meta.subscriber .status {
+    margin: 19px 0 0 0!important;
+}
+
+#user-rollover.role-cohost.id-3964410 .role i {
+    background-image: url(https://nb3-music.github.io/icons/rdj.png)!important;
+}
+
+#user-rollover.id-3964410 .level:before {
+    position: absolute;
+    background-image: url(http://theme.foxdenedm.com/image_files/CoHostImg_ByFoxifly.png);
+    background-repeat: no-repeat;
+    content: "Co-Host";
+    display: inline-block;
+    color: #78E3FD!important;
+    margin: 0px 0px 0 170px!important;
+    padding: 0 0 0 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*Brenda*/
+
+#chat [data-cid^='30410098-'] .un:before {
+    content: url(https://i.imgur.com/bCqxRM2.png);
+    padding: 0 5px 0 0px!important;
+}
+
+#user-rollover.id-30410098 .level:after {
+    background-image: url(https://i.imgur.com/bCqxRM2.png);
+    background-repeat: no-repeat;
+    content: "Astronauta";
+    display: inline-block;
+    color: #00BB95!important;
+    font-weight: bold;
+    margin: 0px 0px 0 20px!important;
+    padding: 0 0 0 18px;
+}
+
+#user-rollover.id-30410098 .info .role i {
+    position: absolute;
+    margin: -17px 0 0 45px;
+}
+
+#user-rollover.is-plot.id-30410098 .info .role {
+    position: absolute;
+    margin: -97px 0px 0px -132px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+}
+
+#user-rollover.is-plot.id-30410098 .info .role span {
+    position: absolute;
+    margin: -18px 0px 0px 65px!important;
+    display: inline-block;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    font-size: 12px;
+    color: #E67E22!important;
+}
+
+#user-rollover.id-30410098 .meta {
+    height: 145px!important;
+}
+
+#user-rollover.id-30410098 .meta .showID,
+#user-rollover.id-30410098 .meta .joined,
+#user-rollover.id-30410098 .meta.subscriber .status {
+    margin: 19px 0 0 0!important;
+}
+
+#user-rollover.role-cohost.id-30410098 .role i {
+    background-image: url(https://nb3-music.github.io/icons/rdj.png)!important;
+}
+
+#user-rollover.id-30410098 .level:before {
+    position: absolute;
+    background-image: url(http://theme.foxdenedm.com/image_files/CoHostImg_ByFoxifly.png);
+    background-repeat: no-repeat;
+    content: "Co-Host";
+    display: inline-block;
+    color: #78E3FD!important;
+    margin: 0px 0px 0 170px!important;
+    padding: 0 0 0 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
