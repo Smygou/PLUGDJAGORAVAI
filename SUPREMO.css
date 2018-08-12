@@ -1,203 +1,26 @@
 /* Tema do TomorrowLandPobre, antes de usar entre em contato com o player "Smygou" e "Fellippe".
 */
 
-
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/d357485f/icones.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/f5e62b49/message.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/09d0a425/Playlist.css");
 
-body {
-    background-size: 100% auto !important;
-    background-attachment: fixed 0px 0px !important;
+#footer #footer-user .info {
+    z-index: 0!important;
 }
 
-#playback-container {
-    background-image: url();
-    background-position: center;
-    background-size: 100% auto;
+#footer-user .buttons {
+    z-index: -2!important
 }
 
-#chat .message:nth-child(2n+1) #chat .mention:nth-child(2n+1) #chat .skip:nth-child(2n+1) #chat .moderation:nth-child(2n+1) #chat .emote:nth-child(2n+1) #chat .update:nth-child(2n+1) #chat .welcome:nth-child(2n+1) {
-    background-color: rgba(17 19 23 0.32);
-    -webkit-animation: fadein 0.25s;
-    -moz-animation: fadein 0.25s;
-    -ms-animation: fadein 0.25s;
-    -o-animation: fadein 0.25s;
-    animation: fadein 0.25s;
-    animation: fadein 0.25s;
-    background-color: #111317;
-    border-radius: 0px;
-    background-color: rgba(17 19 23 0.5);
+#footer-user {
+    z-index: -1!important
 }
 
-#woot i.icon,
-#grab i.icon,
-#meh i.icon {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.thumb.medium .avi {
+    left: -24px!important;
 }
 
-
-#playlist-panel {
-    opacity: .85;
-}
-
-#playback-controls .button.snooze {
-    background: #00afe4 !important;
-}
-
-#playlist-button {
-    background: #FF3558 !important;
-}
-
-#playlist-menu .menu .row.selected {
-    background: #39688D !important;
-}
-
-.media-list .row.now-playing {
-    background: #FF3558 !important;
-    border-bottom: 1px solid #ff5f7c !important;
-}
-
-#playlist-menu .menu .row .count {
-    color: #FF3558 !important;
-}
-
-#grab .bottom #grab.selected {
-    background: #00afe4 !important;
-}
-
-#footer-user .bar .progress {
-    background: #FF3558 !important;
-}
-
-.experience .xp .bar .progress {
-    background: #FF3558 !important;
-}
-
-.activate-button span {
-    color: #FFFFFF !important;
-}
-
-#playlist-activate-button {
-    background: none !important;
-}
-
-#playlist-activate-button span {
-    color: #FF3558 !important;
-}
-
-.media-list .row.now-playing .actions {
-    background: #FF3558 !important;
-}
-
-.media-list .row.selected {
-    background: #39688D !important;
-}
-
-.media-list .selected .actions {
-    background: #FF3558 !important;
-}
-
-#user-lists .header .button.staff.selected {
-    border-bottom: 1px solid #FF3558 !important;
-}
-
-#room-info .button.disabled {
-    background: #FF3558 !important;
-}
-
-#room-info .button.enabled {
-    background: #00afe4 !important;
-}
-
-#playlist-create:hover {
-    background: #0191ff !important;
-}
-
-#playlist-import:hover {
-    background: #0191ff !important;
-}
-
-#playlist-edit-button:hover {
-    background: #0191ff !important;
-}
-
-#playlist-shuffle-button:hover {
-    background: #0191ff !important;
-}
-
-#playlist-delete-button:hover {
-    background: #c42e3b !important;
-}
-
-.tab-menu button.selected {
-    background: #FF3558 !important;
-}
-
-#dj-button .left {
-    background: #00afe4 !important;
-}
-
-#dj-button.is-leave .left {
-    background: #FF3558 !important;
-}
-
-#dj-button.is-quit .left {
-    background: #FF3558 !important;
-}
-
-.delete-button:hover {
-    background: #FF3558 !important;
-}
-
-.icon-plug-dj {
-    display: none;
-}
-
-.role-dj .icon-chat-silver-subscriber + span,
-.role-dj .icon-chat-subscriber + span,
-.icon-chat-dj + span {
-    color: #0acc8f !important;
-}
-
-.role-bouncer .icon-chat-silver-subscriber + span,
-.role-bouncer .icon-chat-subscriber + span,
-.icon-chat-bouncer + span {
-    color: #01e1ff !important;
-}
-
-.role-manager .icon-chat-silver-subscriber + span,
-.role-manager .icon-chat-subscriber + span,
-.icon-chat-manager + span {
-    color: #0191ff !important;
-}
-
-.role-cohost .icon-chat-silver-subscriber + span,
-.role-cohost .icon-chat-subscriber + span,
-.icon-chat-cohost + span {
-    color: #FF3558 !important;
-}
-
-.role-host .icon-chat-silver-subscriber + span,
-.role-host .icon-chat-subscriber + span,
-.icon-chat-host + span {
-    color: #FF3558 !important;
-}
-
-.role-ambassador .icon-chat-silver-subscriber + span,
-.role-ambassador .icon-chat-subscriber + span,
-.icon-chat-ambassador + span {
-    color: #89be6c !important;
-}
-
-.role-admin .icon-chat-silver-subscriber + span,
-.role-admin .icon-chat-subscriber + span,
-.icon-chat-admin + span {
-    color: #42a5DC !important;
-}
-
-.drag-media-box {
-    background-color: #FF3558;
+.thumb .background {
+    background: transparent!important
 }
