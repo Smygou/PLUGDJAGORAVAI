@@ -1,10 +1,13 @@
-/* Tema do TomorrowLandPobre, antes de usar entre em contato com o player "Smygou" e "Fellippe".
+/* Tema do another universe, antes de usar entre em contato com o player "Smygou".
 */
 
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/9819eb79/DJ.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/e0d6833e/DashPainel.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/d357485f/icones.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/f5e62b49/message.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/09d0a425/Playlist.css");
 @import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/ec16d405/Menus.css");
+@import url("https://cdn.rawgit.com/Smygou/PLUGDJAGORAVAI/219eb51e/vulpes.css");
 
 #footer #footer-user .info {
     z-index: 0!important;
