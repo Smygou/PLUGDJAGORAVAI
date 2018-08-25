@@ -14,7 +14,7 @@
 .bottom__playback-meta,
 .bottom__playback-controls,
 .community__top {
-  background-color: #1f0201 !important;
+  background-color: #0b2155 !important;
 }
 
 .community .bottom__playback-controls--desktop .community__player-item.history,
@@ -27,17 +27,17 @@
 .community__playlist--desktop,
 .community__playlist--mobile,
 .community__playlist {
-  background-color: #460b08 !important;
+  background-color: #253859 !important;
 }
 
 .community .community__name {
-  color: #c6a19f !important;
+  color: #253859 !important;
   font-weight: bold;
   transition: ease-in-out 0.4s;
 }
 
 .community .community__name:hover {
-  color: #d4b9b7 !important;
+  color: #253859 !important;
   cursor: default;
 }
 
