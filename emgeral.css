@@ -3,7 +3,7 @@
   .volume-bar
   .progress
   .progress-bar {
-  background-color: #c8b3b2 !important;
+  background-color: #323651 !important;
 }
 
 .pop-up-tooltip {
@@ -14,7 +14,7 @@
 .bottom__playback-meta,
 .bottom__playback-controls,
 .community__top {
-  background-color: #0b2155 !important;
+  background-color: #040616 !important;
 }
 
 .community .bottom__playback-controls--desktop .community__player-item.history,
@@ -27,17 +27,17 @@
 .community__playlist--desktop,
 .community__playlist--mobile,
 .community__playlist {
-  background-color: #253859 !important;
+  background-color: #111928 !important;
 }
 
 .community .community__name {
-  color: #253859 !important;
+  color: white !important;
   font-weight: bold;
   transition: ease-in-out 0.4s;
 }
 
 .community .community__name:hover {
-  color: #253859 !important;
+  color: #111928 !important;
   cursor: default;
 }
 
