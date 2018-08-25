@@ -1,0 +1,35 @@
+.community .room-controls--desktop__item .btn-meh {
+}
+
+.community .room-controls--desktop__item .btn-like::before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://nightbloo.github.io/plug/icons/woot.png")
+    no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
+
+.community .room-controls--desktop__item .btn-playlist:before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://nightbloo.github.io/plug/icons/grab.png")
+    no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
+
+.community .room-controls--desktop__item .btn-meh::before {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  content: "";
+  background: url("https://nightbloo.github.io/plug/icons/meh.png")
+    no-repeat 0 0;
+  background-size: 70%;
+  background-position: center !important;
+}
